@@ -11,7 +11,7 @@ public class ReverseArray {
         {
             arr[i] = in.nextInt();
         }
-        for(int k=1;k>=0;k--)
+        for(int k=n-1;k>=0;k--)
         {
             System.out.println(arr[k]);
         }

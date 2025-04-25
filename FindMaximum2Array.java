@@ -17,6 +17,6 @@ public class FindMaximum2Array {
             max = val;
         }
     }
-    System.out.println("Maximum Element :" + max);
+    System.out.println("Maximum Element :  " + max);
  }   
 }

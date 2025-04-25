@@ -1,5 +1,5 @@
 public class StringArray {
-    public static void main
+    public static void main(String[] args)
      {
         String palindrome="racecar";
         char[] arr = palindrome.toCharArray();
