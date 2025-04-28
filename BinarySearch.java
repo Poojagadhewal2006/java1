@@ -1,5 +1,4 @@
 
-import javax.lang.model.util.ElementScanner14;
 
 public class BinarySearch {
     public static int Binarysearch() {
@@ -24,16 +23,17 @@ public class BinarySearch {
             }
             else
             {
-               
+                
             }    
         }
         return -1;
-            }
-
-        }
-    
     }
+
+ }
+    
+    
     public static void main(String[] args) {
-        
+
+        Binarysearch();
     }
 }
