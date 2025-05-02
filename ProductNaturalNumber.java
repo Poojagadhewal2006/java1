@@ -1,13 +1,16 @@
 import java.util.Scanner;
 
- public class NaturalNumber {
-    public static void Natural(int n)
+public class ProductNaturalNumber {
+     public static void Natural(int n)
     {
-      for(int i=0;i<=n;i++)
+        int mul = 1;
+      for(int i=1;i<=n;i++)
       {
-        System.out.println(i);
+        mul = mul * i;
       }
+      System.out.println("Product Of Natural Number :" + mul);  
     }
+    
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the value of n : ");
@@ -17,3 +20,5 @@ import java.util.Scanner;
         obj.close();
     }
 }
+
+

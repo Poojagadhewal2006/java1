@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
- public class NaturalNumber {
+public class SumNaturalNumber {
+    
     public static void Natural(int n)
     {
+        int sum = 0;
       for(int i=0;i<=n;i++)
       {
-        System.out.println(i);
+        sum = sum + i;
       }
+      System.out.println("Sum :" + sum);  
     }
+    
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the value of n : ");
@@ -17,3 +21,5 @@ import java.util.Scanner;
         obj.close();
     }
 }
+
+
