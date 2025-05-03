@@ -2,21 +2,21 @@ class Person
 {
      void displayName()
     {
-      System.out.println("Manoj");
+      System.out.println("Name : Manoj");
     }
 }
 class Student extends Person
 {
     void displayClass()
     {
-        System.out.println("Class");
+        System.out.println("Class : 12th");
     }
 }
 class Moniter extends Student
 {
     void checkDicipline()
     {
-        System.out.println("Disipline");
+        System.out.println("Monitor Is Checking Disipline");
     }
 }
 public class Multilevel1 {

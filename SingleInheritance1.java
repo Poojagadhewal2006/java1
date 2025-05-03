@@ -2,13 +2,13 @@ class Employee
 {
 void work()
 {
-    System.out.println("Workinggg");
+    System.out.println(" Employee Is Working");
 }
 }
 class Manager extends Employee{
  void attentedMeeting()
  {
-    System.out.println("Attened Meeting ");
+    System.out.println("Manager Is Atteneding A Meeting ");
  }
 }
 public class SingleInheritance1

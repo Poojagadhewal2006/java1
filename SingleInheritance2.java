@@ -1,8 +1,8 @@
 class Shape
 {
-    void drew()
+    void draw()
     {
-        System.out.println("Drew");
+        System.out.println("Draw");
     }
 }
 class Circle extends Shape
@@ -16,6 +16,6 @@ public class SingleInheritance2 {
     public static void main(String[] args) {
         Circle c = new Circle();
         c.calculateArea();
-        c.drew();
+        c.draw();
     }
 }
