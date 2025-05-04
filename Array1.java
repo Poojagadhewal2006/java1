@@ -4,8 +4,7 @@ public class Array1 {
      // output = 52341;
    
      
-    //String str = "9";
-    //int a = str;
+   
      char ch = 5;
      int a = ch;
      System.out.println(a);
