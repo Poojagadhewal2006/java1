@@ -36,3 +36,4 @@ public class Abstract2 {
     obj1.sum();
     }
 }
+
