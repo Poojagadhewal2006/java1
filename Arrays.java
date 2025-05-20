@@ -21,12 +21,12 @@ public class Arrays {
    }
    for(int k=0;k<arr.length;k++)
    {
-      if(arr[k] == 0)
+      if(arr[k] > 0)
       {
          newArr[index++] = arr[k];
       }
    }
-   for(int p = arr){
+   for(int p : newArr){
    System.out.println(p);
    }
 }
