@@ -7,6 +7,8 @@ public class DynamicArray {
         arr.add("rahul");
         arr.add("rohit");
         arr.add("ramesh");
+       // arr.clear();
+       
        // arr.add(0,"jain");
         
       // arr.remove(1);
@@ -23,5 +25,6 @@ public class DynamicArray {
         System.out.println(arr.set(0,"rena"));
        System.out.println(arr.get(0));
       // System.out.println(arr.remove(0));
+      //System.out.println(arr);
     }
 }
